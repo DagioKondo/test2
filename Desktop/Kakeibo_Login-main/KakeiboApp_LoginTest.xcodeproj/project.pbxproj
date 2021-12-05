@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		876910CF271C2EE9002DE98F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876910CE271C2EE9002DE98F /* AppDelegate.swift */; };
+		876910D1271C2EE9002DE98F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876910D0271C2EE9002DE98F /* SceneDelegate.swift */; };
+		876910D6271C2EE9002DE98F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 876910D4271C2EE9002DE98F /* Main.storyboard */; };
+		876910D8271C2EEB002DE98F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 876910D7271C2EEB002DE98F /* Assets.xcassets */; };
+		876910DB271C2EEB002DE98F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 876910D9271C2EEB002DE98F /* LaunchScreen.storyboard */; };
+		876910E3271C311B002DE98F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876910E2271C311B002DE98F /* LoginViewController.swift */; };
+		876910E6271C313E002DE98F /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876910E5271C313E002DE98F /* NextViewController.swift */; };
+		876910E9271C326B002DE98F /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876910E8271C326B002DE98F /* LoginModel.swift */; };
+		876910EB271C3F29002DE98F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 876910EA271C3F29002DE98F /* GoogleService-Info.plist */; };
+		BF7ED79A0A3C6E3B9A9BD317 /* Pods_KakeiboApp_LoginTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC58F74C5420705F1C46174 /* Pods_KakeiboApp_LoginTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		082A6381A88D7C37265BAC84 /* Pods-KakeiboApp_LoginTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KakeiboApp_LoginTest.debug.xcconfig"; path = "Target Support Files/Pods-KakeiboApp_LoginTest/Pods-KakeiboApp_LoginTest.debug.xcconfig"; sourceTree = "<group>"; };
+		422417DF35DF1C7301A67278 /* Pods-KakeiboApp_LoginTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KakeiboApp_LoginTest.release.xcconfig"; path = "Target Support Files/Pods-KakeiboApp_LoginTest/Pods-KakeiboApp_LoginTest.release.xcconfig"; sourceTree = "<group>"; };
+		876910CB271C2EE9002DE98F /* KakeiboApp_LoginTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KakeiboApp_LoginTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		876910CE271C2EE9002DE98F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		876910D0271C2EE9002DE98F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		876910D5271C2EE9002DE98F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		876910D7271C2EEB002DE98F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		876910DA271C2EEB002DE98F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		876910DC271C2EEB002DE98F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		876910E2271C311B002DE98F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		876910E5271C313E002DE98F /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		876910E8271C326B002DE98F /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		876910EA271C3F29002DE98F /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		9CC58F74C5420705F1C46174 /* Pods_KakeiboApp_LoginTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KakeiboApp_LoginTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		876910C8271C2EE9002DE98F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF7ED79A0A3C6E3B9A9BD317 /* Pods_KakeiboApp_LoginTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AAFD4F0E973E4623A7FE368 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				082A6381A88D7C37265BAC84 /* Pods-KakeiboApp_LoginTest.debug.xcconfig */,
+				422417DF35DF1C7301A67278 /* Pods-KakeiboApp_LoginTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		876910C2271C2EE9002DE98F = {
+			isa = PBXGroup;
+			children = (
+				876910CD271C2EE9002DE98F /* KakeiboApp_LoginTest */,
+				876910CC271C2EE9002DE98F /* Products */,
+				5AAFD4F0E973E4623A7FE368 /* Pods */,
+				BF5613FA92F5680D162BA21F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		876910CC271C2EE9002DE98F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				876910CB271C2EE9002DE98F /* KakeiboApp_LoginTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		876910CD271C2EE9002DE98F /* KakeiboApp_LoginTest */ = {
+			isa = PBXGroup;
+			children = (
+				876910CE271C2EE9002DE98F /* AppDelegate.swift */,
+				876910D0271C2EE9002DE98F /* SceneDelegate.swift */,
+				876910D4271C2EE9002DE98F /* Main.storyboard */,
+				876910E7271C3252002DE98F /* Model */,
+				876910E4271C3127002DE98F /* View */,
+				876910D7271C2EEB002DE98F /* Assets.xcassets */,
+				876910D9271C2EEB002DE98F /* LaunchScreen.storyboard */,
+				876910DC271C2EEB002DE98F /* Info.plist */,
+				876910EA271C3F29002DE98F /* GoogleService-Info.plist */,
+			);
+			path = KakeiboApp_LoginTest;
+			sourceTree = "<group>";
+		};
+		876910E4271C3127002DE98F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				876910E2271C311B002DE98F /* LoginViewController.swift */,
+				876910E5271C313E002DE98F /* NextViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		876910E7271C3252002DE98F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				876910E8271C326B002DE98F /* LoginModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BF5613FA92F5680D162BA21F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CC58F74C5420705F1C46174 /* Pods_KakeiboApp_LoginTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		876910CA271C2EE9002DE98F /* KakeiboApp_LoginTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 876910DF271C2EEB002DE98F /* Build configuration list for PBXNativeTarget "KakeiboApp_LoginTest" */;
+			buildPhases = (
+				F25DA59FFED76F939AFC32EB /* [CP] Check Pods Manifest.lock */,
+				876910C7271C2EE9002DE98F /* Sources */,
+				876910C8271C2EE9002DE98F /* Frameworks */,
+				876910C9271C2EE9002DE98F /* Resources */,
+				2A085DB9DFFD571CD9B84087 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KakeiboApp_LoginTest;
+			productName = KakeiboApp_LoginTest;
+			productReference = 876910CB271C2EE9002DE98F /* KakeiboApp_LoginTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		876910C3271C2EE9002DE98F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					876910CA271C2EE9002DE98F = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 876910C6271C2EE9002DE98F /* Build configuration list for PBXProject "KakeiboApp_LoginTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 876910C2271C2EE9002DE98F;
+			productRefGroup = 876910CC271C2EE9002DE98F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				876910CA271C2EE9002DE98F /* KakeiboApp_LoginTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		876910C9271C2EE9002DE98F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876910DB271C2EEB002DE98F /* LaunchScreen.storyboard in Resources */,
+				876910EB271C3F29002DE98F /* GoogleService-Info.plist in Resources */,
+				876910D8271C2EEB002DE98F /* Assets.xcassets in Resources */,
+				876910D6271C2EE9002DE98F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A085DB9DFFD571CD9B84087 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KakeiboApp_LoginTest/Pods-KakeiboApp_LoginTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KakeiboApp_LoginTest/Pods-KakeiboApp_LoginTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KakeiboApp_LoginTest/Pods-KakeiboApp_LoginTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F25DA59FFED76F939AFC32EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KakeiboApp_LoginTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		876910C7271C2EE9002DE98F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876910E9271C326B002DE98F /* LoginModel.swift in Sources */,
+				876910E3271C311B002DE98F /* LoginViewController.swift in Sources */,
+				876910E6271C313E002DE98F /* NextViewController.swift in Sources */,
+				876910CF271C2EE9002DE98F /* AppDelegate.swift in Sources */,
+				876910D1271C2EE9002DE98F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		876910D4271C2EE9002DE98F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				876910D5271C2EE9002DE98F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		876910D9271C2EEB002DE98F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				876910DA271C2EEB002DE98F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		876910DD271C2EEB002DE98F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		876910DE271C2EEB002DE98F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		876910E0271C2EEB002DE98F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 082A6381A88D7C37265BAC84 /* Pods-KakeiboApp_LoginTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KakeiboApp_LoginTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.masashi.KakeiboApp-LoginTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		876910E1271C2EEB002DE98F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 422417DF35DF1C7301A67278 /* Pods-KakeiboApp_LoginTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KakeiboApp_LoginTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.masashi.KakeiboApp-LoginTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		876910C6271C2EE9002DE98F /* Build configuration list for PBXProject "KakeiboApp_LoginTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				876910DD271C2EEB002DE98F /* Debug */,
+				876910DE271C2EEB002DE98F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		876910DF271C2EEB002DE98F /* Build configuration list for PBXNativeTarget "KakeiboApp_LoginTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				876910E0271C2EEB002DE98F /* Debug */,
+				876910E1271C2EEB002DE98F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 876910C3271C2EE9002DE98F /* Project object */;
+}
